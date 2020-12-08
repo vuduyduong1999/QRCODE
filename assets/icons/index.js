@@ -1,0 +1,21 @@
+const ICONS = {
+  History: require('./history.png'),
+  QRcode: require('./QRCode.png'),
+  Caclendar: require('./CalendarBlack.png'),
+  Image: require('./imageicon.png'),
+  Edit: require('./EditBlack.png'),
+  Filter: require('./FilterBlack.png'),
+  Keyboard: require('./KeyboardBlack.png'),
+  Search: require('./SearchBlack.png'),
+  Torch: require('./TorchBlack.png'),
+  User: require('./UserInactive.png'),
+  X: require('./XBlack.png'),
+  ZoominBlack: require('./ZoomInBlack.png'),
+  ZoomoutBlack: require('./ZoomOutBlack.png'),
+  Back: require('./BackBlack.png'),
+  Next: require('./NextBlack.png'),
+  Check: require('./iconCheckedStore.png'),
+  sessionQR: require('./sessionQR.png'),
+  refresh: require('./RefreshBlack.png'),
+}
+export { ICONS }

@@ -1,0 +1,2 @@
+export const BARCODE = 'BARCODE'
+export const BARCODE_SUCCESS = 'BARCODE_SUCCESS'
