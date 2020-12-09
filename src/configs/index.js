@@ -1,6 +1,6 @@
 import { ICONS } from '../../assets/icons'
 
-export const URL = 'https://ladophar.satavan.vn'
+export const URL = 'https://qrcode.satavan.vn'
 export const SCREEN_NAME = {
   LOGIN: 'LOGIN',
   SPLASH_SCREEN: 'SPLASH_SCREEN',
