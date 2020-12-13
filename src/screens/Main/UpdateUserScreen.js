@@ -36,7 +36,7 @@ const UpdateUserScreen = () => {
   const [name, setName] = useState(profile?.name)
   const [phone, setPhone] = useState(profile?.phone)
   const [email, setEmail] = useState(profile?.email)
-  const [birthday, setBirthday] = useState(profile?.birthday)
+  const [birthday, setBirthday] = useState(moment(profile?.birthday).format("DD-MM-yyyy"))
   const [generic, setGeneric] = useState(profile?.generic)
   const [isCalendar, setIsCalendar] = useState(false)
   const [isConfrm, setIsConfrm] = useState(false)
@@ -410,15 +410,17 @@ const CustomHeader = React.forwardRef(({
       <View style={{
         height: 50 * rate, overflow: 'hidden',
         // alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
       }}>
         <Picker
           style={{
-            height: 50 * rate,
+            height: 70 * rate,
 
             positions: 'absolute',
-            bottom: 70 * rate
+            bottom: 60 * rate
           }}
+          // itemStyle={{ margin: 5 * rate }}
+
           selectedValue={currentYear}
           pickerData={year}
           onValueChange={(value) => {
@@ -427,18 +429,11 @@ const CustomHeader = React.forwardRef(({
             calendars.year(value)
             setCurrentYear(value)
           }}
-          itemSpace={50}
+          itemSpace={70}
         />
       </View>
 
-      {/* <Picker
-        key="piker"
-        style={{ height: 40 * rate, backgroundColor: 'white' }}
-        selectedValue={2020}
-        pickerData={year}
-        onValueChange={(value, index) => { console.log(value) }}
-        
-      /> */}
+
       <View style={{
         flexDirection: 'row',
         alignItems: 'center',

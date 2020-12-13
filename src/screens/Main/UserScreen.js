@@ -18,6 +18,8 @@ import { IMAGES } from '../../../assets/images'
 import { Helpers, NavigationHelper } from '../../utils'
 import { SCREEN_NAME } from '../../configs'
 import { userAction } from '../../redux/actions'
+import moment from 'moment'
+
 
 const { width } = Dimensions.get('window')
 const rate = width / 375
@@ -106,7 +108,7 @@ const UserScreen = () => {
           </View>
           <View style={styles.item}>
             <Text>Ngày sinh</Text>
-            <Text style={{ ...TextStyles.semiBold }}>{profile?.birthday}</Text>
+            <Text style={{ ...TextStyles.semiBold }}>{moment(profile?.birthday).format("DD-MM-yyyy")}</Text>
           </View>
           <View style={{ alignItems: 'center' }}>
             <TouchableOpacity onPress={() => {
