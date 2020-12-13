@@ -6,6 +6,7 @@ import {
   ScrollView,
   TouchableOpacity,
   TextInput,
+  SafeAreaView
 } from 'react-native'
 import FastImage from 'react-native-fast-image'
 import { useDispatch, useSelector } from 'react-redux'
@@ -68,6 +69,7 @@ const UpdateUserScreen = () => {
         handleOff={() => { setIsConfrm(false) }}
         handleConfirm={handleConfirm}
       />
+      <SafeAreaView />
       <Header
         title="Chỉnh sửa tài khoản"
         imageLeft={ICONS.Back}
@@ -405,19 +407,30 @@ const CustomHeader = React.forwardRef(({
         overflow: 'hidden',
       }}
     >
+      <View style={{
+        height: 50 * rate, overflow: 'hidden',
+        // alignItems: 'center',
+        justifyContent: 'center'
+      }}>
+        <Picker
+          style={{
+            height: 50 * rate,
 
-      <Picker
-        style={{ height: 50 * rate, backgroundColor: 'white' }}
-        selectedValue={currentYear}
-        pickerData={year}
-        onValueChange={(value) => {
-          const offset = value - currentYear
-          props.addMonth(offset * 12)
-          calendars.year(value)
-          setCurrentYear(value)
-        }}
-        itemSpace={30}
-      />
+            positions: 'absolute',
+            bottom: 70 * rate
+          }}
+          selectedValue={currentYear}
+          pickerData={year}
+          onValueChange={(value) => {
+            const offset = value - currentYear
+            props.addMonth(offset * 12)
+            calendars.year(value)
+            setCurrentYear(value)
+          }}
+          itemSpace={50}
+        />
+      </View>
+
       {/* <Picker
         key="piker"
         style={{ height: 40 * rate, backgroundColor: 'white' }}
@@ -429,7 +442,7 @@ const CustomHeader = React.forwardRef(({
       <View style={{
         flexDirection: 'row',
         alignItems: 'center',
-        marginTop: 10 * rate,
+        marginTop: 20 * rate,
         justifyContent: 'space-between',
         paddingHorizontal: 10 * rate,
       }}

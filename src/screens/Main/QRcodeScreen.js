@@ -5,6 +5,7 @@ import {
   TouchableOpacity,
   StyleSheet,
   Vibration,
+  SafeAreaView
 } from 'react-native'
 import { RNCamera as Camera } from 'react-native-camera'
 import FastImage from 'react-native-fast-image'
@@ -113,7 +114,7 @@ const QRcodeScreen = () => {
           showAnimatedLine={false}
         />
         <View style={styles.container}>
-
+          <SafeAreaView />
           <View style={styles.header}>
             <TouchableOpacity
               style={{

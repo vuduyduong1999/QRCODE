@@ -11,18 +11,21 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		17E4658C1D6E998574481A9A /* libPods-QRScannerApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C419811C3C5075767ED1ED /* libPods-QRScannerApp-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* QRScannerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* QRScannerAppTests.m */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		765C6583BAC64E8292B0B9FC /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B17E664AEF6401196BBFA37 /* Lato-Black.ttf */; };
-		B3D280C6EAEE4F3FBFBD72CD /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6893D8E785459594DF5029 /* Lato-Regular.ttf */; };
 		57C0F86DA3C04D6D993B3941 /* SFProDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 546496F406EB46B7B4E47B94 /* SFProDisplay-Bold.ttf */; };
-		FB38B3448D1845E4AFCD3B4A /* SFProDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9D49ADE6BB854AF6B0744F87 /* SFProDisplay-Medium.otf */; };
+		765C6583BAC64E8292B0B9FC /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B17E664AEF6401196BBFA37 /* Lato-Black.ttf */; };
+		7F95B75DFCA623AF61D38CAC /* libPods-QRScannerApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9694CD1B80250B040943D7DB /* libPods-QRScannerApp-tvOSTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		AA832F34991A4A5B8E252B95 /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EF94BA25E244E4EA9A3B0A8 /* SFProDisplay-Regular.ttf */; };
+		B3D280C6EAEE4F3FBFBD72CD /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6893D8E785459594DF5029 /* Lato-Regular.ttf */; };
+		BD3CC26C129DB36208A226C6 /* libPods-QRScannerApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E6C98EE63697BB69C812A5 /* libPods-QRScannerApp.a */; };
+		CBF796126A7220B01F917062 /* libPods-QRScannerApp-QRScannerAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3E3C6802F5EDF3BD6986D1 /* libPods-QRScannerApp-QRScannerAppTests.a */; };
 		FA40E01917F44743A7839EA1 /* SFProDisplay-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 009BCF9ACDDD46379FE643AF /* SFProDisplay-Semibold.otf */; };
-		2BFDF7A5A5DC42A5889D932D /* libRCTQRCodeLocalImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F55A8E47DF98485988C1C65E /* libRCTQRCodeLocalImage.a */; };
+		FB38B3448D1845E4AFCD3B4A /* SFProDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9D49ADE6BB854AF6B0744F87 /* SFProDisplay-Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		009BCF9ACDDD46379FE643AF /* SFProDisplay-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-Semibold.otf"; path = "../assets/fonts/SFProDisplay-Semibold.otf"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* QRScannerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRScannerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* QRScannerAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRScannerAppTests.m; sourceTree = "<group>"; };
@@ -53,19 +57,31 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = QRScannerApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = QRScannerApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = QRScannerApp/main.m; sourceTree = "<group>"; };
+		1EF94BA25E244E4EA9A3B0A8 /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-Regular.ttf"; path = "../assets/fonts/SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* QRScannerApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QRScannerApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* QRScannerApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QRScannerApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9BF90B20ECFB06002F8B2C /* Pods-QRScannerApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScannerApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-QRScannerApp-tvOS/Pods-QRScannerApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		3E3E3C6802F5EDF3BD6986D1 /* libPods-QRScannerApp-QRScannerAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QRScannerApp-QRScannerAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4106C91FB004FC263819EBB5 /* Pods-QRScannerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScannerApp.release.xcconfig"; path = "Target Support Files/Pods-QRScannerApp/Pods-QRScannerApp.release.xcconfig"; sourceTree = "<group>"; };
+		496CA363A8ADC8686C4F653D /* Pods-QRScannerApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScannerApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-QRScannerApp-tvOS/Pods-QRScannerApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		49E6C98EE63697BB69C812A5 /* libPods-QRScannerApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QRScannerApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2DA4B530BF4168AC7C1604 /* Pods-QRScannerApp-QRScannerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScannerApp-QRScannerAppTests.release.xcconfig"; path = "Target Support Files/Pods-QRScannerApp-QRScannerAppTests/Pods-QRScannerApp-QRScannerAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		546496F406EB46B7B4E47B94 /* SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-Bold.ttf"; path = "../assets/fonts/SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		54C419811C3C5075767ED1ED /* libPods-QRScannerApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QRScannerApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B17E664AEF6401196BBFA37 /* Lato-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Black.ttf"; path = "../assets/fonts/Lato-Black.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = QRScannerApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9694CD1B80250B040943D7DB /* libPods-QRScannerApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QRScannerApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D49ADE6BB854AF6B0744F87 /* SFProDisplay-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-Medium.otf"; path = "../assets/fonts/SFProDisplay-Medium.otf"; sourceTree = "<group>"; };
+		BE066CFE2585CC12001EEE92 /* libQrCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libQrCode.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6893D8E785459594DF5029 /* Lato-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Regular.ttf"; path = "../assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		CCB3BA1E1BF7590D3EFCC151 /* Pods-QRScannerApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScannerApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-QRScannerApp-tvOSTests/Pods-QRScannerApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		D0B2ABFBD2FF17BFA5D1EC7A /* Pods-QRScannerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScannerApp.debug.xcconfig"; path = "Target Support Files/Pods-QRScannerApp/Pods-QRScannerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D4326372F617BC55C9B9D0E9 /* Pods-QRScannerApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScannerApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-QRScannerApp-tvOSTests/Pods-QRScannerApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E29847E0FAC00FBB0688F299 /* Pods-QRScannerApp-QRScannerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScannerApp-QRScannerAppTests.debug.xcconfig"; path = "Target Support Files/Pods-QRScannerApp-QRScannerAppTests/Pods-QRScannerApp-QRScannerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		6B17E664AEF6401196BBFA37 /* Lato-Black.ttf */ = {isa = PBXFileReference; name = "Lato-Black.ttf"; path = "../assets/fonts/Lato-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BE6893D8E785459594DF5029 /* Lato-Regular.ttf */ = {isa = PBXFileReference; name = "Lato-Regular.ttf"; path = "../assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		546496F406EB46B7B4E47B94 /* SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; name = "SFProDisplay-Bold.ttf"; path = "../assets/fonts/SFProDisplay-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9D49ADE6BB854AF6B0744F87 /* SFProDisplay-Medium.otf */ = {isa = PBXFileReference; name = "SFProDisplay-Medium.otf"; path = "../assets/fonts/SFProDisplay-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1EF94BA25E244E4EA9A3B0A8 /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; name = "SFProDisplay-Regular.ttf"; path = "../assets/fonts/SFProDisplay-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		009BCF9ACDDD46379FE643AF /* SFProDisplay-Semibold.otf */ = {isa = PBXFileReference; name = "SFProDisplay-Semibold.otf"; path = "../assets/fonts/SFProDisplay-Semibold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F23AE83BB50E4691BC5BD30B /* RCTQRCodeLocalImage.xcodeproj */ = {isa = PBXFileReference; name = "RCTQRCodeLocalImage.xcodeproj"; path = "../node_modules/@remobile/react-native-qrcode-local-image/ios/RCTQRCodeLocalImage.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		F55A8E47DF98485988C1C65E /* libRCTQRCodeLocalImage.a */ = {isa = PBXFileReference; name = "libRCTQRCodeLocalImage.a"; path = "libRCTQRCodeLocalImage.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		F23AE83BB50E4691BC5BD30B /* RCTQRCodeLocalImage.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTQRCodeLocalImage.xcodeproj; path = "../node_modules/@remobile/react-native-qrcode-local-image/ios/RCTQRCodeLocalImage.xcodeproj"; sourceTree = "<group>"; };
+		F55A8E47DF98485988C1C65E /* libRCTQRCodeLocalImage.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTQRCodeLocalImage.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF796126A7220B01F917062 /* libPods-QRScannerApp-QRScannerAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BFDF7A5A5DC42A5889D932D /* libRCTQRCodeLocalImage.a in Frameworks */,
+				BD3CC26C129DB36208A226C6 /* libPods-QRScannerApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E4658C1D6E998574481A9A /* libPods-QRScannerApp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F95B75DFCA623AF61D38CAC /* libPods-QRScannerApp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +154,13 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE066CFE2585CC12001EEE92 /* libQrCode.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				49E6C98EE63697BB69C812A5 /* libPods-QRScannerApp.a */,
+				3E3E3C6802F5EDF3BD6986D1 /* libPods-QRScannerApp-QRScannerAppTests.a */,
+				54C419811C3C5075767ED1ED /* libPods-QRScannerApp-tvOS.a */,
+				9694CD1B80250B040943D7DB /* libPods-QRScannerApp-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -158,6 +182,8 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D9A9298B3B05434D864E00A8 /* Resources */,
+				9E0E34AD894FC484239727FC /* Pods */,
+				BE066CF92585AE81001EEE92 /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -175,8 +201,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9E0E34AD894FC484239727FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0B2ABFBD2FF17BFA5D1EC7A /* Pods-QRScannerApp.debug.xcconfig */,
+				4106C91FB004FC263819EBB5 /* Pods-QRScannerApp.release.xcconfig */,
+				E29847E0FAC00FBB0688F299 /* Pods-QRScannerApp-QRScannerAppTests.debug.xcconfig */,
+				4D2DA4B530BF4168AC7C1604 /* Pods-QRScannerApp-QRScannerAppTests.release.xcconfig */,
+				496CA363A8ADC8686C4F653D /* Pods-QRScannerApp-tvOS.debug.xcconfig */,
+				3C9BF90B20ECFB06002F8B2C /* Pods-QRScannerApp-tvOS.release.xcconfig */,
+				D4326372F617BC55C9B9D0E9 /* Pods-QRScannerApp-tvOSTests.debug.xcconfig */,
+				CCB3BA1E1BF7590D3EFCC151 /* Pods-QRScannerApp-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE066CF92585AE81001EEE92 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				F55A8E47DF98485988C1C65E /* libRCTQRCodeLocalImage.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		D9A9298B3B05434D864E00A8 /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				6B17E664AEF6401196BBFA37 /* Lato-Black.ttf */,
 				BE6893D8E785459594DF5029 /* Lato-Regular.ttf */,
@@ -187,7 +236,6 @@
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -196,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "QRScannerAppTests" */;
 			buildPhases = (
+				03FEAC883E3B0B46A15195EC /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				BE4FCF7A2F2A3C89FFB4F87E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,11 +264,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "QRScannerApp" */;
 			buildPhases = (
+				F1F676CF1D479DC65628F1F3 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				D7C990F7F049631FFA243704 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +285,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "QRScannerApp-tvOS" */;
 			buildPhases = (
+				707AD73D540195496E3D51C9 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -252,6 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "QRScannerApp-tvOSTests" */;
 			buildPhases = (
+				8436E0BB1D1361DFA0ABCE46 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -368,6 +422,28 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		03FEAC883E3B0B46A15195EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRScannerApp-QRScannerAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,6 +457,116 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		707AD73D540195496E3D51C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRScannerApp-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8436E0BB1D1361DFA0ABCE46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRScannerApp-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE4FCF7A2F2A3C89FFB4F87E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRScannerApp-QRScannerAppTests/Pods-QRScannerApp-QRScannerAppTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController/TOCropViewControllerBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TOCropViewControllerBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRScannerApp-QRScannerAppTests/Pods-QRScannerApp-QRScannerAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7C990F7F049631FFA243704 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRScannerApp/Pods-QRScannerApp-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController/TOCropViewControllerBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TOCropViewControllerBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRScannerApp/Pods-QRScannerApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F676CF1D479DC65628F1F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRScannerApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -475,15 +661,24 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E29847E0FAC00FBB0688F299 /* Pods-QRScannerApp-QRScannerAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/@remobile/react-native-qrcode-local-image/ios/RCTQRCodeLocalImage",
+				);
 				INFOPLIST_FILE = QRScannerAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -492,25 +687,26 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRScannerApp.app/QRScannerApp";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/@remobile/react-native-qrcode-local-image/ios/RCTQRCodeLocalImage",
-				);
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D2DA4B530BF4168AC7C1604 /* Pods-QRScannerApp-QRScannerAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/@remobile/react-native-qrcode-local-image/ios/RCTQRCodeLocalImage",
+				);
 				INFOPLIST_FILE = QRScannerAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -519,24 +715,21 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRScannerApp.app/QRScannerApp";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/@remobile/react-native-qrcode-local-image/ios/RCTQRCodeLocalImage",
-				);
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B2ABFBD2FF17BFA5D1EC7A /* Pods-QRScannerApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/@remobile/react-native-qrcode-local-image/ios/RCTQRCodeLocalImage",
+				);
 				INFOPLIST_FILE = QRScannerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -549,19 +742,20 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/@remobile/react-native-qrcode-local-image/ios/RCTQRCodeLocalImage",
-				);
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4106C91FB004FC263819EBB5 /* Pods-QRScannerApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/@remobile/react-native-qrcode-local-image/ios/RCTQRCodeLocalImage",
+				);
 				INFOPLIST_FILE = QRScannerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -573,15 +767,12 @@
 				PRODUCT_NAME = QRScannerApp;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/@remobile/react-native-qrcode-local-image/ios/RCTQRCodeLocalImage",
-				);
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 496CA363A8ADC8686C4F653D /* Pods-QRScannerApp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -592,8 +783,16 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/@remobile/react-native-qrcode-local-image/ios/RCTQRCodeLocalImage",
+				);
 				INFOPLIST_FILE = "QRScannerApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -604,19 +803,12 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/@remobile/react-native-qrcode-local-image/ios/RCTQRCodeLocalImage",
-				);
 			};
 			name = Debug;
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C9BF90B20ECFB06002F8B2C /* Pods-QRScannerApp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -627,8 +819,16 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/@remobile/react-native-qrcode-local-image/ios/RCTQRCodeLocalImage",
+				);
 				INFOPLIST_FILE = "QRScannerApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -639,19 +839,12 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/@remobile/react-native-qrcode-local-image/ios/RCTQRCodeLocalImage",
-				);
 			};
 			name = Release;
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4326372F617BC55C9B9D0E9 /* Pods-QRScannerApp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -661,8 +854,16 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/@remobile/react-native-qrcode-local-image/ios/RCTQRCodeLocalImage",
+				);
 				INFOPLIST_FILE = "QRScannerApp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -673,19 +874,12 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRScannerApp-tvOS.app/QRScannerApp-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/@remobile/react-native-qrcode-local-image/ios/RCTQRCodeLocalImage",
-				);
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB3BA1E1BF7590D3EFCC151 /* Pods-QRScannerApp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -695,8 +889,16 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/@remobile/react-native-qrcode-local-image/ios/RCTQRCodeLocalImage",
+				);
 				INFOPLIST_FILE = "QRScannerApp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -707,14 +909,6 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRScannerApp-tvOS.app/QRScannerApp-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/@remobile/react-native-qrcode-local-image/ios/RCTQRCodeLocalImage",
-				);
 			};
 			name = Release;
 		};

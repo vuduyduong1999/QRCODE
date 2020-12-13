@@ -8,13 +8,8 @@ target 'QRScannerApp' do
 
   use_react_native!(:path => config["reactNativePath"])
 
-  pod 'react-native-camera', :path => '../node_modules/react-native-camera'
 
-  pod 'RNImageCropPicker', :path => '../node_modules/react-native-image-crop-picker'
 
-  pod 'RNQrGenerator', :path => '../node_modules/rn-qr-generator'
-
-  pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
 
   target 'QRScannerAppTests' do
     inherit! :complete

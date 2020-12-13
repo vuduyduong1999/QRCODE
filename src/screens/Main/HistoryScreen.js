@@ -3,6 +3,7 @@ import {
   View, Dimensions,
   FlatList,
   TextInput,
+  SafeAreaView,
   StyleSheet,
 } from 'react-native'
 import FastImage from 'react-native-fast-image'
@@ -37,7 +38,7 @@ const HistoryScreen = (props) => {
   // ---------------------
   return (
     <View style={{ flex: 1 }}>
-
+      <SafeAreaView />
       <Header
         title={session_code}
         imageLeft={ICONS.Back}

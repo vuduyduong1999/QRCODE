@@ -5,7 +5,7 @@ import {
   FlatList,
   TextInput,
   StyleSheet,
-
+  SafeAreaView
 } from 'react-native'
 import FastImage from 'react-native-fast-image'
 import { useSelector, useDispatch } from 'react-redux'
@@ -52,6 +52,7 @@ const SessionScreen = () => {
     <View style={{ flex: 1 }}>
       {/* Modal calendar  */}
       <ModalCalendar isVisible={isMadalCalendar} handleOff={handleOff} />
+      <SafeAreaView />
       <Header title="Phiên làm việc" />
       <View style={styles.container}>
         <View style={styles.type}>

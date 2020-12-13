@@ -4,6 +4,7 @@ import {
   Dimensions,
   StyleSheet,
   ScrollView,
+  SafeAreaView,
   TouchableOpacity,
 } from 'react-native'
 import FastImage from 'react-native-fast-image'
@@ -48,6 +49,7 @@ const UserScreen = () => {
         handleOff={() => { setIsConfirm(false) }}
         handleConfirm={handleConfirm}
       />
+      <SafeAreaView />
       <Header title="Tài khoản" />
       <View style={styles.avatar}>
         <View style={{ width: 80 * rate, height: 80 * rate }}>
